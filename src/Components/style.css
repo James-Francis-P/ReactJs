@@ -1,14 +1,33 @@
-.imagelist{
-   display: flex;
+.imageContainer{
+  display:flex;
+  flex-wrap: wrap;
   
-   margin:10px;
-   
+  justify-content: space-around;
+  padding: 1px;
+  
+}
+
+.imagelist{
+padding: 10px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 250px;
 }
 .imagelist img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+   
+height:100px;
+flex-grow: 1;
+flex-shrink: 1;
+max-width: 100%;
+justify-content: center;
+align-items: center;
+max-width:100%
+
+   
+   
 }
+
+
 

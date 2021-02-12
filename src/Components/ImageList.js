@@ -4,18 +4,20 @@ import  './style.css';
 
 const ImageList=(props)=>{
     //console.log(props.images);
-
+<div>
+    
+</div>
 const images= props.images.map((image)=>{
     return (
         <div className="imagelist" key={image.id}>
-    <img alt ={image.description} src={image.urls.regular}></img>
+    <img alt ={image.description} src={image.urls.regular} height="250px" width="250px" ></img>
     </div>
     )
 })
 
     return(
         
-        <div>
+        <div className="imageContainer">
             {images}
              
         </div>
