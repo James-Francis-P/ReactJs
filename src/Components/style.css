@@ -1,0 +1,14 @@
+.imagelist{
+   display: flex;
+  
+   margin:10px;
+   
+}
+.imagelist img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
